@@ -157,3 +157,11 @@ ACCESS-OM2-01
 # "ocean_model","vhrho_nt","vhrho_nt","southern_ocean_daily_vhrho_nt","all",.true.,"-280,80,-80,-55,-1,-1",2
 # "ocean_model","rho_dzt","rho_dzt","southern_ocean_daily_rho_dzt","all",.true.,"-280,80,-80,-55,-1,-1",2
 
+# Output of tracer advection - can useful for understanding temp/salt out of range crashes
+# "ocean_model","temp_advection","temp_advection",            "ocean","all",.true.,"none",2
+# "ocean_model","salt_advection","salt_advection",            "ocean","all",.true.,"none",2
+# "ocean_model","temp_horz_advect","temp_horz_advect",            "ocean","all",.true.,"none",2
+# "ocean_model","salt_horz_advect","salt_horz_advect",            "ocean","all",.true.,"none",2
+# "ocean_model","temp_vert_advect","temp_vert_advect",            "ocean","all",.true.,"none",2
+# "ocean_model","salt_vert_advect","salt_vert_advect",            "ocean","all",.true.,"none",2
+
