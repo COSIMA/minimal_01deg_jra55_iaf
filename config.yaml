@@ -24,7 +24,9 @@ submodels:
     - name: ocean
       model: mom
       exe: /short/public/access-om2/bin/fms_ACCESS-OM_afe80bfd.x
-      input: /short/public/access-om2/input_08022019/mom_01deg
+      input:
+          - /short/public/access-om2/input_08022019/minimal_mom_01deg
+          - /short/public/access-om2/input_08022019/mom_01deg
       ncpus: 1717
 
     - name: ice
