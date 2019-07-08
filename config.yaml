@@ -42,6 +42,7 @@ collate:
 # Misc
 runlog: True
 stacksize: unlimited
+restart_freq: 1  # use tidy_restarts.py instead
 mpirun: --mca orte_base_help_aggregate 0
 qsub_flags: -lother=hyperthread -W umask=027
 mpi:
